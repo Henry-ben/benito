@@ -1,0 +1,212 @@
+.test{
+display: grid;
+grid-template-rows: repeat(3,minmax(200px,1fr));
+grid-template-columns: repeat(4, minmax(300px,1fr));
+justify-content: start;
+gap: 20px;
+
+
+}
+#opay1{
+    width:  70%;
+    height: 50%;
+    position: relative;
+    left: 20px;
+    top: 5%;
+    
+}
+#fair1{
+    width: 70%;
+    height: 30%;
+    position: relative;
+    left: 20px;
+    top: -15px;
+
+  
+}
+#palm1{
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: -7%;
+    left: 30px;
+
+}
+#gtbank1{
+    width: 90%;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 10%;
+}
+#first1{
+    width: 35%;
+    height: auto;
+    position: relative;
+    top: -30px;
+    
+}
+#key1{
+    width: 65%;
+    height: 25%;
+    position: relative;
+    left: 6%;
+}
+#acess1{
+    width: 38%;
+    height: 70%;
+    position: relative;
+    top: -62%;
+    left: 20px;
+}
+#diamond1{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    left: 17px;
+}
+#opay{
+    display: flexbox;
+    background-color: #ffcc69;
+    width: 60%;
+    height: 51%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    position: relative;
+    left: 40%;
+    top: 5%;
+    border-radius: 8px;  
+}
+#fair{
+    display: flexbox;
+    background-color: #f9f7fa;
+    width: 66%;
+    height: 64%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border-radius: 8px;
+    position: relative;
+    top: -56%;
+}
+#palm{
+    display: flexbox;
+    background-color: #ffcc69;
+    width: 66%;
+    height: 64%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start:3 ;
+    grid-column-end: 3;
+    position: relative;
+    left: -30%;
+    top: -18%;
+    border-radius: 8px;
+}
+#first{
+    display: flexbox;
+    background-color: #7651dc;
+    color: white;
+    width: 69%;
+    height: 80%;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    border-radius: 8px;
+}
+#gtbank{
+    display: flexbox;
+    background-color: #f9f7fa;
+    width: 66%;
+    height: 64%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end: 2;
+    position: relative;
+    top: -18%;
+    border-radius: 8px;
+}
+#key{
+    display: flexbox;
+    background-color: #faeee2;
+    width: 60%;
+    height: 52%;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    position: relative;
+    left: 40%;
+    border-radius: 8px;
+}
+#acess{
+    display: flexbox;
+    background-color: #7651dc;
+    color: white;
+    width: 65%;
+    height: 63%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+    top: -56%;
+    left: -15%;
+    border-radius: 8px;
+}
+#diamond{
+    display: flexbox;
+    background-color: #dcd1fc;
+    width: 60%;
+    height: 74%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    position: relative;
+    left: -64%;
+    border-radius: 8px;
+}
+.big{
+    font-size: 150%;
+    font-weight: bolder;
+    position: relative;
+    left: 20px;
+    
+}
+.mega{
+    font-size: 300%;
+}
+.grow{
+    font-size: 170%;
+    position: relative;
+    left: 45%;
+    top: 10%;
+}
+.social{
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+.star{
+    position: relative;
+    top: -50px;
+    left: -8%;
+    width: 550px;
+    font-size: large;
+}
+.fast{
+   position: relative;
+   top: -20px;
+   left: 18px;
+}
+.time{
+    position: relative;
+    left: 13px;
+}   
